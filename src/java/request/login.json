@@ -1,0 +1,86 @@
+[
+  {
+    "request" :{
+      "method": "post",
+      "uri": "/login-test",
+       "headers": {
+            "token_value": "c668f1c88f6b1de882244397c221c96d",
+            "type": "teacher",
+            "content-type":"application/json"
+       },
+       "json": {
+             "phone_verify_code": "415278",
+             "phone_number": "13001277188",
+             "landing": "2",
+             "type": "1",
+             "studio_name": "美术世界"
+       }
+    },
+    "response": {
+      "file":"src/java/response/Test_login_suc.json"
+    }
+  },
+  {
+    "request" :{
+      "method": "post",
+      "uri": "/login-test",
+      "headers": {
+        "token_value": "c668f1c88f6b1de882244397c221c96d",
+        "type": "teacher",
+        "content-type":"application/json"
+      },
+      "json": {
+        "phone_verify_code": "222222",
+        "phone_number": "13001277188",
+        "landing": "2",
+        "type": "1",
+        "studio_name": "美术世界"
+      }
+    },
+    "response": {
+      "file":"src/java/response/Test_login_pwdErr.json"
+    }
+  },
+  {
+    "request" :{
+      "method": "post",
+      "uri": "/admin/login-test",
+      "headers": {
+        "token_value": "c668f1c88f6b1de882244397c221c96d",
+        "type": "teacher",
+        "content-type":"application/json"
+      },
+      "json": {
+        "phone_verify_code": "",
+        "phone_number": "",
+        "landing": "2",
+        "type": "1",
+        "studio_name": "美术世界"
+      }
+    },
+    "response": {
+      "file":"src/java/response/Test_login_accAndpwdNull.json"
+    }
+  },
+  {
+    "request" :{
+      "method": "post",
+      "uri": "/login-test",
+      "headers": {
+        "token_value": "c668f1c88f6b1de882244397c221c96d",
+        "type": "teacher",
+        "content-type":"application/json"
+      },
+      "json": {
+        "phone_verify_code": "",
+        "phone_number": "13001277188",
+        "landing": "2",
+        "type": "1",
+        "studio_name": "美术世界"
+      }
+    },
+    "response": {
+      "file":"src/java/response/Test_login_pwdNull.json"
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "status": "success",
+    "status_code": "0001",
+    "error_message": "登录成功",
+    "data":{
+      "phone_number": "13001277188",
+      "is_first": 77,
+      "name": "莎",
+      "studio_id": 183,
+      "qrcode": null,
+      "campus_id": "美术世界",
+      "expert_category": "",
+      "province": null,
+      "gender": null,
+      "token_value": "b4360ac6e7fbb9019f80aed86d02f04a",
+      "usersig": "eJxlj1FPgzAYRd-5FYRnIy20Akv2IHWbc5K5bIrZCwH6AdXAuq4im-G-q7hEEu-rObk398MwTdPa3K8v0zzfvTU60UcJljkyLWRd-EEpBU9SnbiK-4PQSaEgSQsNqoeYUuogNHQEh0aLQpwNDWlegSIBcQbSgb8m-dJvC-muoBQRPFRE2cNosmJzJrPJsQWWefyd*Q-bjtnh1CsXEdvgmJOrkBQrp4HwdKquRVjPn1GdPtr7abt8iuPIni1uw6xTeYDL7Uvd6H3WVcvZTX5XjseDSS1qON-yKA585PoD2oI6iF3TCw7CFDsu*ollfBpfO3heuw__",
+      "is_chat": 1,
+      "is_create": true,
+      "vip_time": "2021-08-01",
+      "admin_id": 4942,
+      "identifier": "teacher4942",
+      "is_vip": true,
+      "pic_url": "http://meishuquanyunxiao.img-cn-beijing.aliyuncs.com/183%2Fpicture%2Fimage%2F80c6b99dd847c994742b29388861c409.jpg?x-oss-process=style/320x320",
+      "user_role": "teacher",
+      "campusId_Rn": "370",
+      "code_number": "sha00183",
+      "studio_name": "美术世界",
+      "surplus_time": "609天",
+      "is_code_create": false
+    }
+  }
+]

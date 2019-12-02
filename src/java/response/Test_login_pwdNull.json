@@ -1,0 +1,8 @@
+[
+  {
+    "status": "fail",
+    "status_code": "0003",
+    "error_message": "密码不能为空",
+    "data": {}
+  }
+]
